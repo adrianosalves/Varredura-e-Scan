@@ -28,6 +28,22 @@ flag **-sV -version-trace -p 445**: Vamos fazer uma pesquisa para a Porta **445*
 
 ![image](https://user-images.githubusercontent.com/33209944/210180812-4144016c-1955-45ee-a04d-237e3533444a.png)
 
+**Recomendação**: Fazer o scanner por porta assim fazemos menos barulho!
+
+Existe ferramentas de segurança que pode identificar que tipo de ferramenta estamos usando quando estamos realizando um scaneamento na rede, o **nmap** possue recursos para enganar o sistema de log se passando por navegador comum.
+
+Assim o sistema de log não vai identificar que é uma ferramenta de scan!
+
+Se o sistema de segurança detectar nossa ferramenta de scan, ele pode bloquear nosso ip impedindo novas tentativas de scaneamento. E pode até mesmo bloquear o **endereço mac** da sua placa de rede!
+
+O **IDS/IPS** são muito rápido em identificar as ferramentas de scan.
+
+Se no momento do scan voce souber usar os paramentros necessário para ocultar isso do log vai evitar que seu scan sejá identificado.
+
+
+
+
+
 
 
 
