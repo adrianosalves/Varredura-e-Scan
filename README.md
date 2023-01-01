@@ -24,9 +24,10 @@ flag **-O**: Deduz qual o Sistema Operacional do Dispositivos, no exemplo abaixo
 
 ![image](https://user-images.githubusercontent.com/33209944/210172369-38790a8d-ee91-430a-83c7-43e2bfe53e43.png)
 
-flag **-sV -version-trace -p 445**: Vamos fazer uma pesquisa para a Porta **445** de forma mais dinamica e tambem identificar o Sistema Operacional com **-V**.
+flag **-sV -version-trace -p 445**: Vamos fazer uma pesquisa para a Porta **445** de forma mais dinamica e tambem identificar o Sistema Operacional com **-V**, e tambem a versão do serviço. Saber versões do serviço é muito importante saber se determinando serviço está vulneravel e se existe algum **exploit** de uma possivel exploração.
 
 ![image](https://user-images.githubusercontent.com/33209944/210180812-4144016c-1955-45ee-a04d-237e3533444a.png)
+
 
 
 
