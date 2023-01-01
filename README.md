@@ -42,7 +42,7 @@ Se no momento do scan voce souber usar os paramentros necessário para ocultar i
 
 # Exemplo 4: Scanner de Rede de forma furtiva para não ser identificado pelo IDS/IPS!
 
-Muito cuidado ao fazer testes de scaneamento com **comandos básico** pois pode existir software de IDS/IPS pode bloquear o IP da Rede e bloquear serviços importante da empresa e causar impactos nos negocios das empresas.
+Muito cuidado ao fazer testes de scaneamento com **comandos básicos** do **nmap** pois pode existir software de **IDS/IPS** pode bloquear o IP da Rede e bloquear serviços importante da empresa e causar impactos nos negocios das empresas.
 
 É importante ser muito agil e preciso ao executar comandos do **nmap** para não causar danos ao ser detectado pelos sistemas de segurança das empresas. E se por acaso for identificado e bloquear serviços importante é necessário avisar os resposavel imediantamente (Para normalizar os serviços em caso de falso positivo).
 
@@ -50,7 +50,9 @@ Como identificar quem fez o scan na rede caso seja identificado e evitar danos?
 
 Importante ter Logs armazenado de acordo com a **LGPD** e por meio desses Logs é possivel coletar os dados (data, horario, ip, porta, origem e destino, endereço mac da placa de rede).
 
-Atraves dessas informações é possivel chegar até o **endereço fisico da placa de rede**. Caso a pessoa que efetuou o scan na rede não tenha alterado o **endereço fisico da placa de rede** é possivel encontrar o responsavel, caso contrario seria mais dificil de identificar o **endereço fisico da placa de rede**.
+Atraves dessas informações é possivel chegar até o **endereço fisico da placa de rede (MAC)**. Caso a pessoa que efetuou o scan na rede não tenha alterado é possivel encontrar o responsavel, caso contrario seria mais dificil de identificar o **endereço fisico da placa de rede(MAC)**.
+
+![image](https://user-images.githubusercontent.com/33209944/210181922-b5d3bff1-3338-4dbc-a1ab-2772b117ff70.png)
 
 
 
