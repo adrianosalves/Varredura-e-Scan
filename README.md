@@ -46,6 +46,12 @@ Muito cuidado ao fazer testes de scaneamento com **comandos básico** pois pode 
 
 É importante ser muito agil e preciso ao executar comandos do **nmap** para não causar danos ao ser detectado pelos sistemas de segurança das empresas. E se por acaso for identificado e bloquear serviços importante é necessário avisar os resposavel imediantamente (Para normalizar os serviços em caso de falso positivo).
 
+Como identificar quem fez o scan na rede caso seja identificado e evitar danos?
+
+Importante ter Logs armazenado de acordo com a **LGPD** e por meio desses Logs é possivel coletar os dados (data, horario, ip, porta, origem e destino, endereço mac da placa de rede).
+
+Atraves dessas informações é possivel chegar até o **endereço fisico da placa de rede**. Caso a pessoa que efetuou o scan na rede não tenha alterado o **endereço fisico da placa de rede** é possivel encontrar o responsavel, caso contrario seria mais dificil de identificar o **endereço fisico da placa de rede**.
+
 
 
 
