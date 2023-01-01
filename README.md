@@ -40,6 +40,16 @@ O **IDS/IPS** são muito rápido em identificar as ferramentas de scan.
 
 Se no momento do scan voce souber usar os paramentros necessário para ocultar isso do log vai evitar que seu scan sejá identificado.
 
+# Exemplo 4: Scanner de Rede de forma furtiva para não ser identificado pelo IDS/IPS!
+
+Muito cuidado ao fazer testes de scaneamento com **comandos básico** pois pode existir software de IDS/IPS pode bloquear o IP da Rede e bloquear serviços importante da empresa e causar impactos nos negocios das empresas.
+
+É importante ser muito agil e preciso ao executar comandos do **nmap** para não causar danos ao ser detectado pelos sistemas de segurança das empresas. E se por acaso for identificado e bloquear serviços importante é necessário avisar os resposavel imediantamente (Para normalizar os serviços em caso de falso positivo).
+
+
+
+
+
 
 
 
